@@ -12,6 +12,5 @@ description: 'Greet someone and record the time'
 runs:
   using: 'docker'
   image: 'docker://cytopia/ansible-lint'
-   args:
-     - '.'
-     - '-c .ansible-lint'
+    args: '.'
+#     - '-c .ansible-lint'
